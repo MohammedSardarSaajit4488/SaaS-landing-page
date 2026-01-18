@@ -4,7 +4,7 @@ A modern, responsive, and high-converting SaaS landing page template designed to
 
 **[🚀 View Live Demo](https://mohammedsardarsaajit4488.github.io/SaaS-landing-page/)**
 
-![SaaS Landing Page Preview](https://via.placeholder.com/800x400?text=SaaS+Landing+Page+Preview)
+![SaaS Landing Page Preview](https://github.com/MohammedSardarSaajit4488/SaaS-landing-page/blob/master/Preview.png)
 
 ## 📋 Table of Contents
 
