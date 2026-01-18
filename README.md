@@ -79,4 +79,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ by [Mohammed Sardar Saajit](https://github.com/MohammedSardarSaajit4488)
+Built by [Mohammed Sardar Saajit](https://github.com/MohammedSardarSaajit4488)
