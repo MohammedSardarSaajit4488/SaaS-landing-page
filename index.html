@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamline - Modern SaaS Solution</title>
+    <meta name="description"
+        content="Streamline your workflow with our powerful SaaS platform. Boost productivity and scale your business.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Streamline</a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#signup" class="btn btn-sm btn-primary">Get Started</a>
+                <button class="theme-toggle" aria-label="Toggle Dark Mode">
+                    <!-- Sun Icon (Default/Light) -->
+                    <svg class="sun-icon" viewBox="0 0 24 24" style="display: none;">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <!-- Moon Icon (Dark) -->
+                    <svg class="moon-icon" viewBox="0 0 24 24">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <a href="#" class="badge-group">
+                    <span class="badge-new">New</span>
+                    <span class="badge-text">AI-Driven Insights Layer</span>
+                    <span class="badge-arrow">→</span>
+                </a>
+                <h1 class="hero-title">Orchestrate your workflow with <span class="gradient-text">precision</span>
+                </h1>
+                <p class="hero-subtitle">Stop juggling disparate tools. Streamline unifies your team's pulse into one
+                    intelligent, glass-clear dashboard designed for high-velocity teams.</p>
+                <div class="hero-cta-group">
+                    <a href="#signup" class="btn btn-primary btn-lg">Start Free Trial</a>
+                    <a href="#demo" class="btn btn-outline btn-lg">View Interactive Demo</a>
+                </div>
+                <div class="social-proof">
+                    <span>Powering next-gen companies:</span>
+                    <div class="logos">
+                        <!-- Logos would ideally be SVGs, keeping text for now but styled better -->
+                        <div class="logo-item">Acme Corp</div>
+                        <div class="logo-item">GlobalTech</div>
+                        <div class="logo-item">Nebula</div>
+                        <div class="logo-item">FoxRun</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="perspective-container">
+                    <div class="mockup-window glass-panel">
+                        <div class="mockup-header">
+                            <div class="traffic-lights">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="address-bar">streamline.app/dashboard</div>
+                        </div>
+                        <div class="mockup-body">
+                            <div class="dashboard-grid">
+                                <div class="dash-card stats-card">
+                                    <div class="skeleton-label"></div>
+                                    <div class="skeleton-number"></div>
+                                    <div class="skeleton-chart-mini"></div>
+                                </div>
+                                <div class="dash-card stats-card">
+                                    <div class="skeleton-label"></div>
+                                    <div class="skeleton-number"></div>
+                                    <div class="skeleton-chart-mini"></div>
+                                </div>
+                                <div class="dash-card main-chart-card">
+                                    <div class="skeleton-chart-large"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Decorative floating elements -->
+                    <div class="float-card float-1">
+                        <div class="icon-circle">🚀</div>
+                        <div>
+                            <div class="skeleton-text-xs"></div>
+                            <div class="skeleton-text-sm"></div>
+                        </div>
+                    </div>
+                    <div class="float-card float-2">
+                        <div class="icon-circle">📈</div>
+                        <div>
+                            <div class="skeleton-text-xs"></div>
+                            <div class="skeleton-text-sm"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="section features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Everything you need to succeed</h2>
+                <p class="section-subtitle">Powerful features to help you manage specific challenges.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon-box">⚡</div>
+                    <h3>Zero-Latency Performance</h3>
+                    <p>Engineered for instant interactions. Experience a workspace that moves as fast as your thought
+                        process.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">🛡️</div>
+                    <h3>Military-Grade Encryption</h3>
+                    <p>Your proprietary data is protected by AES-256 encryption and SOC2 Type II compliance standards.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">📊</div>
+                    <h3>Predictive Analytics</h3>
+                    <p>Don't just track history—forecast the future. Our AI engine spots trends before they become
+                        outlines.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">🤝</div>
+                    <h3>Seamless Synergy</h3>
+                    <p>Collaborate in real-time with multiplayer cursors, threaded contexts, and instant huddles.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">🔄</div>
+                    <h3>Visual Automations</h3>
+                    <p>Connect your stack. Build complex logic flows without writing a single line of code.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon-box">🌍</div>
+                    <h3>Global Edge Network</h3>
+                    <p>Distributed infrastructure ensures your workspace is available and performant, wherever you are.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Transparent investment</h2>
+                <p class="section-subtitle">Choose the tier that matches your ambition.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="plan-name">Essential</div>
+                    <div class="plan-price">$29<span>/mo</span></div>
+                    <p class="plan-desc">For individuals demanding professional leverage.</p>
+                    <ul class="plan-features">
+                        <li>Single user license</li>
+                        <li>Core analytics suite</li>
+                        <li>Standard Support</li>
+                        <li>10GB Cloud Vault</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline btn-full">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="popular-tag">Most Popular</div>
+                    <div class="plan-name">Growth</div>
+                    <div class="plan-price">$79<span>/mo</span></div>
+                    <p class="plan-desc">For high-velocity teams scaling their operations.</p>
+                    <ul class="plan-features">
+                        <li>Up to 20 seats</li>
+                        <li>Predictive insights</li>
+                        <li>Priority 24/7 Support</li>
+                        <li>1TB Shared Storage</li>
+                        <li>API Access</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary btn-full">Start Free Trial</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="plan-name">Scale</div>
+                    <div class="plan-price">$199<span>/mo</span></div>
+                    <p class="plan-desc">Bespoke infrastructure for global organizations.</p>
+                    <ul class="plan-features">
+                        <li>Unlimited seats</li>
+                        <li>Custom reporting engine</li>
+                        <li>Dedicated Success Manager</li>
+                        <li>Unlimited Storage</li>
+                        <li>SSO & Audit Logs</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline btn-full">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Validated by industry leaders</h2>
+                <p class="section-subtitle">See why modern teams are switching to Streamline.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote">"Streamline reduced our operational overhead by 40% in the first quarter. The
+                        automation engine is simply unparalleled in the market."</div>
+                    <div class="author">
+                        <div class="avatar">SJ</div>
+                        <div class="author-info">
+                            <strong>Sarah Jenkins</strong>
+                            <span>CTO, TechFlow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote">"The predictive analytics are a game changer. We're consistently spotting market
+                        trends weeks ahead of our competitors."</div>
+                    <div class="author">
+                        <div class="avatar">MR</div>
+                        <div class="author-info">
+                            <strong>Michael Ross</strong>
+                            <span>Founder, DesignCo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote">"The only platform that didn't break when we 10x'd our user base overnight. Rock
+                        solid infrastructure that scales with you."</div>
+                    <div class="author">
+                        <div class="avatar">AL</div>
+                        <div class="author-info">
+                            <strong>Amanda Lee</strong>
+                            <span>VP Ops, ScaleUp</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="signup" class="section cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Ready to orchestrate your success?</h2>
+                <p>Join the top 1% of efficient companies. Start your 14-day unrestricted trial today.</p>
+                <div class="cta-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button class="btn btn-primary">Start Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Modal -->
+    <div id="demo-modal" class="modal-overlay" aria-hidden="true">
+        <div class="modal-content glass-panel">
+            <button class="modal-close" aria-label="Close modal">×</button>
+            <div class="modal-header">
+                <h3>Live Workspace Preview</h3>
+                <span class="badge-new">Interactive</span>
+            </div>
+            <div class="modal-body">
+                <div class="demo-placeholder">
+                    <div class="demo-sidebar">
+                        <div class="demo-nav-item active"></div>
+                        <div class="demo-nav-item"></div>
+                        <div class="demo-nav-item"></div>
+                        <div class="demo-nav-item spacer"></div>
+                        <div class="demo-nav-item"></div>
+                    </div>
+                    <div class="demo-main">
+                        <div class="demo-toolbar">
+                            <div class="skeleton-text-sm" style="width: 120px"></div>
+                            <div class="demo-user">
+                                <div class="skeleton-circle"></div>
+                            </div>
+                        </div>
+
+                        <div class="demo-stats-row">
+                            <div class="demo-stat-card">
+                                <span class="stat-label">Total Revenue</span>
+                                <span class="stat-value">$124,500</span>
+                                <span class="stat-trend positive">↑ 14%</span>
+                            </div>
+                            <div class="demo-stat-card">
+                                <span class="stat-label">Active Users</span>
+                                <span class="stat-value">1,204</span>
+                                <span class="stat-trend positive">↑ 8.5%</span>
+                            </div>
+                            <div class="demo-stat-card">
+                                <span class="stat-label">Server Load</span>
+                                <span class="stat-value">32%</span>
+                                <span class="stat-trend neutral">→ Stable</span>
+                            </div>
+                        </div>
+
+                        <div class="demo-visuals-grid">
+                            <div class="demo-chart-container">
+                                <h5>Traffic Overview</h5>
+                                <svg class="demo-line-svg" viewBox="0 0 100 40" preserveAspectRatio="none">
+                                    <path class="chart-area"
+                                        d="M0,40 L0,30 C10,25 20,35 30,20 C40,10 50,25 60,15 C70,5 80,15 90,10 L100,5 L100,40 Z"
+                                        fill="rgba(99, 102, 241, 0.1)" stroke="none"></path>
+                                    <path class="chart-line"
+                                        d="M0,30 C10,25 20,35 30,20 C40,10 50,25 60,15 C70,5 80,15 90,10 L100,5"
+                                        fill="none" stroke="var(--primary)" stroke-width="2"
+                                        vector-effect="non-scaling-stroke"></path>
+                                </svg>
+                            </div>
+                            <div class="demo-bars-container">
+                                <h5>Engagement</h5>
+                                <div class="demo-bar-group">
+                                    <div class="demo-v-bar" style="--h: 60%"></div>
+                                    <div class="demo-v-bar" style="--h: 80%"></div>
+                                    <div class="demo-v-bar" style="--h: 40%"></div>
+                                    <div class="demo-v-bar" style="--h: 90%"></div>
+                                    <div class="demo-v-bar" style="--h: 55%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-cta">
+                    <p>Experience the full power of Streamline.</p>
+                    <a href="#signup" class="btn btn-primary">Start Full Trial</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo footer-logo">Streamline</a>
+                <p>Making business simple, scalable, and successful.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Product</h4>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">Integrations</a>
+                <a href="#">Changelog</a>
+            </div>
+            <div class="footer-col">
+                <h4>Company</h4>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Security</a>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2024 Streamline Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
